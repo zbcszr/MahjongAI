@@ -5,9 +5,9 @@ An exploration to Mahjong AI agent implemented using Python.
 ## Modes
 Self-defined numbers of users
 User can choose to play against 3 difficulty levels of AI:
-- The easy bot is very predictable and risk averse.
-- The medium bot uses 
-- The hard bot 
+- The easy level is very predictable and risk averse.
+- The medium level uses 
+- The hard level 
 
 ## Background
 
