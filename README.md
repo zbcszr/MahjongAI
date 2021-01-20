@@ -1,15 +1,12 @@
-# MahjongAI
+# MahjongAid
 
-An exploration to Mahjong AI agent implemented using Python.
+A side product of my exploration to Mahjong AI agent, implemented in Python. Because many factors need to be considered in a good Mahjong AI agent, I want to first break down the problem by separating decision process into different parts and make them into an extension that aid user while playing Riichi Mahjong. 
 
 ## Modes
-Self-defined numbers of users
-User can choose to play against 3 difficulty levels of AI:
-- The easy level is very predictable and risk averse.
-- The medium level uses 
-- The hard level 
 
-## Background
+
+
+## Why AI agent is complicated
 
 Unlike perfect-infomation games such as Go and chess, Mahjong is a multi-player incomplete-information game. An incomplete information game has certain portions of information which is private to other players and cannot be viewed by them. Mahjong AI agent is harder to develop comparing to many existing board games for three main reasons:
 
@@ -29,18 +26,11 @@ up to 13 private tiles, it is hard to predict those interruptions, and therefore
 we even cannot build a regular game tree.
 
 ## Topic under exploration
-- 
+This is a pure algorithm exploration of Mahjong AI. Many open source project uses machine learning instead. For future, I am hoping to take the reinforcement learning course at school and look into Mahjong AI using deep reinforcement learning [here](https://arxiv.org/abs/2003.13590).
 
 
 ## Reference
 
-[Server endpoint](www.logos.t.u-tokyo.ac.jp/mjai/)
-
-[Suphx: Mastering Mahjong with deep reinforcement learning](https://arxiv.org/pdf/2003.13590.pdf)
-
-[Open sourced opponents1](https://github.com/gimite/mjai-manue)
-
-[Open sourced opponents2](https://github.com/wistery-k/mjai-silica)
 
 
-This repo acts as an extended project of [Mahjong](https://github.com/zbcszr/Mahjong). 
+This repo is an extended project of [Mahjong](https://github.com/zbcszr/Mahjong). 
