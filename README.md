@@ -1,4 +1,4 @@
-# MahjongAid
+# MahjongAI
 
 A side product of my exploration to Mahjong AI agent, implemented in Python. Because many factors need to be considered in a good Mahjong AI agent, I want to first break down the problem by separating decision process into different parts and make them into an extension that aid user while playing Riichi Mahjong. 
 
